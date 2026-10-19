@@ -127,6 +127,7 @@ typedef enum {
     DRV_IC_SSD1677 = 0x21,
     DRV_IC_JD79668 = 0x30,
     DRV_IC_JD79665 = 0x31,
+    DRV_IC_SSD1673 = 0x22,
 } epd_drv_ic_t;
 
 // Do not change the existing IDs!
@@ -148,6 +149,7 @@ typedef enum {
     UC8159_583_LOW_BW = 0x0f,
     UC8179_583_BWR = 0x10,
     UC8179_583_BW = 0x11,
+    SSD1673_213_BWR = 0x12,
 } epd_model_id_t;
 
 struct epd_driver;
