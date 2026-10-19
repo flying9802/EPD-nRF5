@@ -125,3 +125,5 @@ const epd_model_t epd_ssd1619_420_bw = {SSD1619_420_BW, COLOR_BW, &epd_drv_ssd16
 const epd_model_t epd_ssd1677_750_bwr = {SSD1677_750_HD_BWR, COLOR_BWR, &epd_drv_ssd16xx, DRV_IC_SSD1677, 880, 528};
 // SSD1677 880x528 Black/White
 const epd_model_t epd_ssd1677_750_bw = {SSD1677_750_HD_BW, COLOR_BW, &epd_drv_ssd16xx, DRV_IC_SSD1677, 880, 528};
+// SSD1673 2.13" 250×122 Black/White/Red
+const epd_model_t epd_ssd1673_213_bwr = {SSD1673_213_BWR, COLOR_BWR, &epd_drv_ssd16xx, DRV_IC_SSD1673, 250, 122};
