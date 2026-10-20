@@ -29,6 +29,6 @@ jobs:
         with:
           name: firmware
           path: |
-          _build/bl_nrf52811_xxaa_s112.hex
-          _build/*.elf
-          _build/*.bin
+            _build/bl_nrf52811_xxaa_s112.hex
+            _build/*.elf
+            _build/*.bin
